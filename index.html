@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>AI Potability System</title>
+    <link rel="icon" href="img/home_logo.jpeg" type="image/png">
+</head>
+
+<body>
+     <!-- Cabeçalho de informações do sistema -->
+    <header>
+        <div class="title">
+            <h2>Bem-Vindo ao AI Potability System</h2>
+            <br>
+            <p>Este sistema foi desenvolvido para auxiliar no diagnóstico de potabilidade da agua.</p>
+            <p>Para isso, basta preencher os campos abaixo com os dados da amostra e clicar em "Diagnosticar".</p>
+        </div>
+        <!-- <div class="banner">
+            <img src="img/home.jpeg">
+        </div> -->
+    </header>
+
+     <!-- Opções para adicionar um novo item -->
+     
+    <section class="newItem">
+        <input type="text" id="newInput" placeholder="Cod">
+        <input type="text" id="newAph" placeholder="ph">
+        <input type="text" id="newHard" placeholder="Hardness">
+        <input type="text" id="newSoli" placeholder="Solids">
+        <input type="text" id="newChlo" placeholder="Chloramines">
+        <input type="text" id="newSulf" placeholder="Sulfate">
+        <input type="text" id="newCondu" placeholder="Conductivity">
+        <input type="text" id="newOrgan" placeholder="Organic_carbon">
+        <input type="text" id="newTriha" placeholder="Trihalomethanes">
+        <input type="text" id="newTurbi" placeholder="Turbidity">
+        <span onclick="newItem()" class="addBtn">Diagnosticar</span>
+    </section>
+
+    <!-- Tabela com items existentes -->
+    <section class="items">
+        <table id="myTable">
+            <tr>
+                <th>Cod</th>
+                <th>ph</th>
+                <th>Hardness</th>
+                <th>Solids</th>
+                <th>Chloramines</th>
+                <th>Sulfate</th>
+                <th>Conductivity</th>
+                <th>Organic_carbon</th>
+                <th>Trihalomethanes</th>
+                <th>Turbidity</th>
+                <th><img src="https://cdn-icons-png.flaticon.com/512/126/126468.png" width="15" height="15"></th>
+                <!-- <th><img src="img/edit.png" width="15" height="15"></th> -->
+            </tr>
+        </table>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
+
+
