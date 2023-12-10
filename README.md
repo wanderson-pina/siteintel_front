@@ -1,8 +1,8 @@
-# Meu Front
+# Front
 
-Este pequeno projeto faz parte do material diático da Disciplina **Desenvolvimento Full Stack Básico** 
+Este projeto se refere a um sistema para verificar potabilidade de amostras de agua.
 
-O objetivo aqui é ilutsrar o conteúdo apresentado na terceira aula.
+
 
 ---
 ## Como executar
